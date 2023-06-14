@@ -1,13 +1,187 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --contact: #61E294;
+  --about: #E5D4ED;
+  --projects: #AD6A6C;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: #f1f1f1;
+  background-color: #0e0e0e;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.top-wrap {
+  gap: 5vh;
+}
+
+.title {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 2.5vh;
+  text-align: center;
+  max-width: 75vw;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.page-top {
+  width: 100%;
+  height: 44vh;
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  padding: 0.5rem;
+  background-color: #f1f1f1;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  border-radius: 100%;
+}
+
+.top-text {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+}
+
+.download-button {
+  text-decoration: none;
+}
+
+.download-image {
+  background-color: #f1f1f1;
+  width: 3rem;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.page-bottom {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.col {
+  height: 100%;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 50%
+}
+
+.mid {
+  width: 30%;
+}
+
+.right {
+  width: 20%;
+}
+
+.button {
+  height: 100%;
+  width: 100%;
+  border-radius: 75px;
+  display: flex;
+  text-decoration: none;
+  transition: transform 0.2s;
+  margin: 5px;
+}
+
+.button:hover {
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9); 
+}
+
+.large-card {
+  align-items:first baseline;
+}
+
+.projects {
+  background-color: var(--projects);
+}
+
+.large-card-text {
+  font-size: 2rem;
+  margin: 10%;
+}
+
+.medium-card {
+  align-items:last baseline;
+}
+
+.contact {
+  color: #000;
+  background-color: var(--contact);
+}
+
+.about {
+  color: #000;
+  background-color: var(--about);
+}
+
+.medium-card-text {
+  font-size: 1.75rem;
+  margin: 10%;
+}
+
+.small-card {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.small-logo {
+  width: 25%;
+  margin-bottom: 8px;
+}
+
+.li-logo, .li-logo * {
+  background-color: #0A66C2;
+}
+
+.gh-logo, .gh-logo * {
+  background-color: #24292F;
+}
+
+.small-card-text {
+  font-size: 1rem;
 }

@@ -1,0 +1,33 @@
+.contact-image {
+    width: 10vh;
+    background-color: #000;
+}
+
+.contact-colour, .contact-colour *:nth-child(2) {
+    background-color: #61E294;
+}
+
+.contact-colour *:first-child {
+    background-color: #9e1d6b;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.contact-link {
+    text-decoration: none;
+}
+
+.contact-card {
+    width: 33vw;
+    height: 18vh;
+    min-width: 500px;
+    border-radius: 20px;
+}
+
+.contact-card > * {
+    color: #000;
+}
+
+.contact-text {
+    margin-top: 10px;
+}
