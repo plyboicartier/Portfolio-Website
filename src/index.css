@@ -80,8 +80,9 @@
 }
 
 .download-image {
+  margin-right: 5px;
   background-color: #f1f1f1;
-  width: 3rem;
+  width: 2rem;
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }

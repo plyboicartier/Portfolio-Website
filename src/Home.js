@@ -12,8 +12,10 @@ const Home = () => {
                     Carter Glynn
                 </h1>
                 <div className="download">
-                    <img src={'/download-button.png'} alt="Download Image" className="download-image" />
-                    <a href="/glynn-carter-resume.pdf" className="download-button" download>Download Resume</a>
+                    <a href="/carter-glynn-resume.pdf" className="download-button center" download>
+                        <img src={'/download-button.png'} alt="Download Image" className="download-image" />
+                        Download Resume
+                    </a>
                 </div>
             </div>
             <div className="page-bottom">
