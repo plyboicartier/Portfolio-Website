@@ -34,6 +34,12 @@
         border-radius: 25px;
         transition: all 0.25s ease-out;
     };
+    .lang {
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.25s ease-out;
+        transition-delay: 0.25s;
+    };
 }
 
 .card-text-wrap {
@@ -54,11 +60,23 @@
 }
 
 .card-desc {
-    padding: 1rem;
-    background-color: aqua;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #AD6A6C;
     font-size: small;
     visibility: hidden;
     opacity: 0;
     width: 100%;
-    border-radius: 0 0 25px 25px;
+}
+
+.lang {
+    font-size: small;
+    visibility: hidden;
+    opacity: 0;
+    width: fit-content;
+    min-width: 75px;
+    padding: 0.25rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5rem;
 }

@@ -8,19 +8,22 @@ const Projects = () => {
 
   async function repoDataURL() {
     //Get repo data about github user
-    await fetch("https://api.github.com/users/plyboicartier/repos")
+    await fetch("https://api.github.com/users/carter-glynn/repos")
       .then((res) => res.json())
       .then(
         (result) => {
           console.log(36, result);
           const list = result.map((item) => (
-            <a target="_blank" href={item.svn_url} className="proj-card">
+            <a key={item.id} target="_blank" href={item.svn_url} className="proj-card">
               <div className="card-text-wrap column">
                 <div className="card-text">
                   {item.name.replace(/-/g, ' ')}
                 </div>
                 <div className="card-desc">
                   {item.description}
+                </div>
+                <div className="lang">
+                  {displayLang(item.language)}
                 </div>
               </div>
             </a>
@@ -31,6 +34,13 @@ const Projects = () => {
           console.log(error);
         }
       );
+  }
+
+  function displayLang(language) {
+    if (language === null) {
+      language = "Multiple Languages";
+    }
+    return language;
   }
 
   useEffect(() => {
@@ -45,7 +55,7 @@ const Projects = () => {
           <h1 className="title">Projects</h1>
         </div>
         <div className="center proj-card-wrap">
-            {repoData}
+          {repoData}
         </div>
       </div>
     </div>
