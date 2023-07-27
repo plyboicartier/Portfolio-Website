@@ -5,7 +5,7 @@ const Navbar = () => {
       <nav className="navbar">
         <a href="/" className='center links nav-text'>
           <img src={'/glynnlogo144px.png'} alt="Site Logo" className="nav-logo" />    
-          <h1>Carter Glynn</h1>
+          <h1 className='nav-text'>Carter Glynn</h1>
         </a>
         <div className="links">
           <a href="/projects" className='nav-text projects main-button center'><div className="projects">Projects</div></a>

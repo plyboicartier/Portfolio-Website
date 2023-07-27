@@ -36,7 +36,6 @@
     margin: 0 10vw;
 }
 
-
 .links h1, .links img {
     background-color: transparent;
 }
@@ -46,4 +45,19 @@
     width: 35px;
     -webkit-filter: invert(100%);
     filter: invert(100%);
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-text h1{
+        visibility: hidden;
+        opacity: 0;
+        margin: -100px;
+    }
+    .nav-logo {
+        width: 50px;
+        margin-left: 10px;
+    }
+    .links {
+        margin: 0;
+    }
 }

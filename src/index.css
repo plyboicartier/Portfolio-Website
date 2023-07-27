@@ -150,18 +150,19 @@
 }
 
 .contact {
-  color: #000;
+  color: #0e0e0e;
   background-color: var(--contact);
 }
 
 .about {
-  color: #000;
+  color: #0e0e0e;
   background-color: var(--about);
 }
 
 .medium-card-text {
   font-size: 1.75rem;
   margin: 10%;
+  background-color: transparent;
 }
 
 .small-card {
@@ -185,4 +186,28 @@
 
 .small-card-text {
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-bottom {
+    flex-direction: column;
+  }
+  .left, .mid, .right {
+    flex-direction: row;
+    width: 100%;
+  }
+  .left {
+    height: 50%;
+  }
+  .mid {
+    height: 30%;
+  }
+  .right {
+    height: 20%;
+  }
+  .small-logo {
+    width: 20%;
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
 }

@@ -8,7 +8,7 @@
 }
 
 .contact-colour *:first-child {
-    background-color: #9e1d6b;
+    background-color: transparent;
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
@@ -30,4 +30,13 @@
 
 .contact-text {
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-card {
+        width: 150%;
+        height: 16vh;
+
+        min-width: 0;
+    }
 }
