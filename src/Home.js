@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
         <div className="intro">
             <div className="page-top">
-                <img src={'/glynnlogo144px.png'} alt="Site Logo" className="logo" />
+                <img src={'/glynnlogo118px.png'} alt="Site Logo" className="logo" />
                 <h1 className="top-text">
                     Carter Glynn
                 </h1>
