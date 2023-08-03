@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    width: 100vw;
+    width: 100%;
     padding: 2.5vh 2.5vh;
     display: flex;
     align-items: center;
