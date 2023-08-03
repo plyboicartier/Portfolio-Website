@@ -20,19 +20,50 @@ const Home = () => {
             </div>
             <div className="page-bottom">
                 <div className="left col">
-                    <Link to="/projects" className="button large-card projects">
+                    <Link to="/projects" className="button large-card projects column">
                         <div className="large-card-text projects">
                             Projects
+                        </div>
+                        <div className="carousel-ani-project large-ani" aria-hidden="true">
+                            <p>Projects</p>
+                            <p>Projects</p>
+                            <p>Projects</p>
+                            <p>Projects</p>
+                            <p>Projects</p>
+                            <p>Projects</p>
+                            <p>Projects</p>
+                            <p>Projects</p>
+                            <p>Projects</p>
+                            <p>Projects</p>
                         </div>
                     </Link>
                 </div>
                 <div className="mid col">
-                    <Link to="/contact" className="button medium-card contact">
+                    <Link to="/contact" className="button medium-card contact column">
+                        <div className="carousel-ani-contact med-ani" aria-hidden="true">
+                            <p>Contact</p>
+                            <p>Contact</p>
+                            <p>Contact</p>
+                            <p>Contact</p>
+                            <p>Contact</p>
+                            <p>Contact</p>
+                            <p>Contact</p>
+                        </div>
                         <div className="medium-card-text contact">
                             Contact
                         </div>
                     </Link>
-                    <Link to="/about" className="button medium-card about">
+                    <Link to="/about" className="button medium-card about column">
+                        <div className="carousel-ani-about med-ani" aria-hidden="true">
+                            <p>About</p>
+                            <p>About</p>
+                            <p>About</p>
+                            <p>About</p>
+                            <p>About</p>
+                            <p>About</p>
+                            <p>About</p>
+                            <p>About</p>
+                        </div>
                         <div className="medium-card-text about">
                             About
                         </div>
