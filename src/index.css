@@ -296,4 +296,7 @@
     margin-bottom: 4px;
     margin-top: 4px;
   }
+  .large-ani, .med-ani {
+    margin-top: 0px;
+  }
 }
