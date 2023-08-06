@@ -70,7 +70,7 @@ const Home = () => {
                     </Link>
                 </div>
                 <div className="right col">
-                    <a href="https://www.github.com/plyboicartier/" className="button small-card gh-logo">
+                    <a href="https://www.github.com/carter-glynn/" className="button small-card gh-logo">
                         <img src={'/github-mark-white.png'} alt="GitHub Logo" className="small-logo" />
                         <div className="small-card-text">
                             GitHub

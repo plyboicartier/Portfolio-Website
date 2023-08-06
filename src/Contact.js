@@ -22,7 +22,7 @@ const Contact = () => {
               <img src={'/linkedin-icon-18-256.png'} alt="LinkedIn Logo" className="contact-image" />
               <div className="contact-text">LinkedIn</div>
             </a>
-            <a href="https://www.github.com/plyboicartier/" className="center column contact-link contact-colour contact-card">
+            <a href="https://www.github.com/carter-glynn/" className="center column contact-link contact-colour contact-card">
               <img src={'/github-mark-white.png'} alt="GitHub Logo" className="contact-image" />              
               <div className="contact-text">GitHub</div>
             </a>
