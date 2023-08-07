@@ -84,6 +84,7 @@
   background-color: #f1f1f1;
   width: 2rem;
   -webkit-filter: invert(100%);
+  -ms-filter: invert(100%);
   filter: invert(100%);
 }
 
@@ -131,14 +132,16 @@
   -ms-transform: scale(0.9); /* IE 9 */
   -webkit-transform: scale(0.9); /* Safari 3-8 */
   transform: scale(0.9); 
-  .carousel-ani-project, .carousel-ani-about, .carousel-ani-contact {
-    opacity: 1;
-    visibility: visible;
-  };
-  .large-card-text, .medium-card-text {
-    opacity: 0;
-    visibility: hidden;
-  }
+}
+
+.button:hover .carousel-ani {
+  opacity: 1;
+  visibility: visible;
+}
+
+.button:hover .large-card-text, .medium-card-text {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .large-card {
@@ -198,79 +201,49 @@
   font-size: 1rem;
 }
 
-.carousel-ani-project {
+.carousel-ani {
   background-color: transparent;
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
-  animation: marquee-project 6s linear infinite;
   
   visibility: hidden;
   opacity: 0;
 }
 
-.carousel-ani-project p, .carousel-ani-about p, .carousel-ani-contact p {
+.carousel-ani p {
+  animation: marquee 2s linear infinite;
+  -webkit-animation: marquee 2s linear infinite;
+  -moz-animation: marquee 2s linear infinite;
   background-color: transparent;
   display: inline-block;
 }
 
-.large-ani, .med-ani {
-  margin-top: 90px;
+.large-ani {
+  margin-top: 10vh;
 }
 
 .large-ani p{
   font-size: 3rem;
-  margin-right: 10px;
 }
 
-.carousel-ani-about {
-  background-color: transparent;
-  white-space: nowrap;
-  animation: marquee-about 1.5s linear infinite;
-  
-  visibility: hidden;
-  opacity: 0;
+.med-ani {
+  margin-top: 10vh;
 }
 
 .med-ani p {
   color: #0e0e0e;
   font-size: 2.5rem;
-  margin-right: 6px;
 }
 
-.carousel-ani-contact {
-  background-color: transparent;
-  white-space: nowrap;
-  animation: marquee-contact 1.5s linear infinite;
-  
-  visibility: hidden;
-  opacity: 0;
-}
-
-@keyframes marquee-project {
+@keyframes marquee {
   0% {
     transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(-50%, 0, 0);
-  }
-}
-
-@keyframes marquee-about {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-43.5%, 0, 0);
-  }
-}
-
-@keyframes marquee-contact {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-58.5%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
   }
 }
 
@@ -295,6 +268,19 @@
     width: 20%;
     margin-bottom: 4px;
     margin-top: 4px;
+  }
+  .button:hover {
+    -ms-transform: scale(0.9); /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9); 
+    .carousel-ani {
+      opacity: 0;
+      visibility: hidden;
+    };
+    .large-card-text, .medium-card-text {
+      opacity: 1;
+      visibility: visible;
+    }
   }
   .large-ani, .med-ani {
     margin-top: 0px;

@@ -24,45 +24,38 @@ const Home = () => {
                         <div className="large-card-text projects">
                             Projects
                         </div>
-                        <div className="carousel-ani-project large-ani" aria-hidden="true">
-                            <p>Projects</p>
-                            <p>Projects</p>
-                            <p>Projects</p>
-                            <p>Projects</p>
-                            <p>Projects</p>
-                            <p>Projects</p>
-                            <p>Projects</p>
-                            <p>Projects</p>
-                            <p>Projects</p>
-                            <p>Projects</p>
+                        <div className="carousel-ani large-ani" aria-hidden="true">
+                            <p>Projects&nbsp;</p>
+                            <p>Projects&nbsp;</p>
+                            <p>Projects&nbsp;</p>
+                            <p>Projects&nbsp;</p>
+                            <p>Projects&nbsp;</p>
+                            <p>Projects&nbsp;</p>
                         </div>
                     </Link>
                 </div>
                 <div className="mid col">
                     <Link to="/contact" className="button medium-card contact column">
-                        <div className="carousel-ani-contact med-ani" aria-hidden="true">
-                            <p>Contact</p>
-                            <p>Contact</p>
-                            <p>Contact</p>
-                            <p>Contact</p>
-                            <p>Contact</p>
-                            <p>Contact</p>
-                            <p>Contact</p>
+                        <div className="carousel-ani med-ani" aria-hidden="true">
+                            <p>Contact&nbsp;</p>
+                            <p>Contact&nbsp;</p>
+                            <p>Contact&nbsp;</p>
+                            <p>Contact&nbsp;</p>
+                            <p>Contact&nbsp;</p>
+                            <p>Contact&nbsp;</p>
                         </div>
                         <div className="medium-card-text contact">
                             Contact
                         </div>
                     </Link>
                     <Link to="/about" className="button medium-card about column">
-                        <div className="carousel-ani-about med-ani" aria-hidden="true">
-                            <p>About</p>
-                            <p>About</p>
-                            <p>About</p>
-                            <p>About</p>
-                            <p>About</p>
-                            <p>About</p>
-                            <p>About</p>
-                            <p>About</p>
+                        <div className="carousel-ani med-ani" aria-hidden="true">
+                            <p>About&nbsp;</p>
+                            <p>About&nbsp;</p>
+                            <p>About&nbsp;</p>
+                            <p>About&nbsp;</p>
+                            <p>About&nbsp;</p>
+                            <p>About&nbsp;</p>
                         </div>
                         <div className="medium-card-text about">
                             About
