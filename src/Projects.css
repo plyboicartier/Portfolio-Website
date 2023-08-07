@@ -18,28 +18,31 @@
     transition: transform 0.25s ease-in;
 }
 
-.proj-card:hover, .proj-card:active {
+.proj-card:hover {
     -ms-transform: scale(1.05); /* IE 9 */
     -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05); 
-    .card-text-wrap {
-        .card-desc {
-            visibility: visible;
-            opacity: 1;
-            transition: all 0.25s ease-out;
-            transition-delay: 0.25s;
-        };
-        height: 100%;
-        display: inline-block;
-        border-radius: 25px;
-        transition: all 0.25s ease-out;
-    };
-    .lang {
-        visibility: visible;
-        opacity: 1;
-        transition: all 0.25s ease-out;
-        transition-delay: 0.25s;
-    };
+    transform: scale(1.05);
+}
+
+.proj-card:hover .card-text-wrap {   
+    height: 100%;
+    display: inline-block;
+    border-radius: 25px;
+    transition: all 0.25s ease-out;
+}
+
+.proj-card:hover .card-text-wrap .card-desc {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.25s ease-out;
+    transition-delay: 0.25s;
+}
+
+.proj-card:hover .lang {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.25s ease-out;
+    transition-delay: 0.25s;
 }
 
 .card-text-wrap {
