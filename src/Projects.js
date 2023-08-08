@@ -14,7 +14,8 @@ const Projects = () => {
         (result) => {
           console.log(36, result);
           const list = result.map((item) => (
-            <a key={item.id} target="_blank" href={item.svn_url} className="proj-card">
+            <a key={item.id} target="_blank" href={item.svn_url} className="proj-card column">
+              <img src={picLink(item)} alt="Thumbnail Image" className="pic"/>
               <div className="card-text-wrap column">
                 <div className="card-text">
                   {item.name.replace(/-/g, ' ')}
@@ -41,6 +42,10 @@ const Projects = () => {
       language = "Multiple Languages";
     }
     return language;
+  }
+
+  function picLink(item) {
+    return "https://raw.githubusercontent.com/carter-glynn/"+ item.name + "/main/TTT-SS.png"
   }
 
   useEffect(() => {
