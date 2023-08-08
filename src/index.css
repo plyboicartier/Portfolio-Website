@@ -139,7 +139,12 @@
   visibility: visible;
 }
 
-.button:hover .large-card-text, .medium-card-text {
+.button:hover .large-card-text {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.button:hover  .medium-card-text {
   opacity: 0;
   visibility: hidden;
 }
@@ -270,17 +275,21 @@
     margin-top: 4px;
   }
   .button:hover {
-    -ms-transform: scale(0.9); /* IE 9 */
-    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
     transform: scale(0.9); 
-    .carousel-ani {
-      opacity: 0;
-      visibility: hidden;
-    };
-    .large-card-text, .medium-card-text {
-      opacity: 1;
-      visibility: visible;
-    }
+  }
+  .button:hover .carousel-ani {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .button:hover  .large-card-text {
+    opacity: 1;
+    visibility: visible;
+  }
+  .button:hover .medium-card-text {
+    opacity: 1;
+    visibility: visible;
   }
   .large-ani, .med-ani {
     margin-top: 0px;
