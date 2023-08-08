@@ -45,7 +45,7 @@ const Projects = () => {
   }
 
   function picLink(item) {
-    return "https://raw.githubusercontent.com/carter-glynn/"+ item.name + "/main/TTT-SS.png"
+    return "https://raw.githubusercontent.com/carter-glynn/"+ item.name + "/main/Thumbnail.png"
   }
 
   useEffect(() => {
