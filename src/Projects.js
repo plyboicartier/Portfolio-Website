@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import './Projects.css'
 import Navbar from './Navbar.js'
+import Footer from './Footer.js'
 import { Link } from "react-router-dom";
 
 const Projects = () => {
@@ -63,6 +64,7 @@ const Projects = () => {
           {repoData}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

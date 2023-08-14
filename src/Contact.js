@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './Contact.css'
 import Navbar from './Navbar.js'
+import Footer from './Footer.js'
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -28,6 +29,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
+        <Footer />
       </div>
     );
   };

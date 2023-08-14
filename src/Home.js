@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from './Footer.js'
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -78,6 +79,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <Footer />
     </div>
   );
 }
