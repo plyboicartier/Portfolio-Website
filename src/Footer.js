@@ -4,7 +4,9 @@ const Footer = () => {
     
     return (
         <div className='footer'>
-            Copyright &copy; 2023 Carter Glynn
+            <div className='footer-text'>
+               Copyright &copy; 2023 Carter Glynn
+            </div>
         </div>
     );
   };
