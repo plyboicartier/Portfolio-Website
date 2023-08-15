@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home">
         <div className="intro">
             <div className="page-top">
-                <img src={'/glynnlogo118px.png'} alt="Site Logo" className="logo" />
+                <img src={'/icons/glynnlogo118px.png'} alt="Site Logo" className="logo" />
                 <h1 className="top-text">
                     Carter Glynn
                 </h1>
@@ -59,13 +59,13 @@ const Home = () => {
                 </div>
                 <div className="right col">
                     <a href="https://www.github.com/carter-glynn/" className="button small-card gh-logo">
-                        <img src={'/github-mark-white.png'} alt="GitHub Logo" className="small-logo" />
+                        <img src={'/icons/github-mark-white.png'} alt="GitHub Logo" className="small-logo" />
                         <div className="small-card-text">
                             GitHub
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/carter-glynn/" className="button small-card li-logo">
-                        <img src={'/linkedin-icon-18-256.png'} alt="LinkedIn Logo" className="small-logo" />
+                        <img src={'/icons/linkedin-icon-18-256.png'} alt="LinkedIn Logo" className="small-logo" />
                         <div className="small-card-text">
                             LinkedIn
                         </div>

@@ -16,15 +16,15 @@ const Contact = () => {
           </div>
           <div className="center column top-wrap">
             <a href="mailto: carter.glynn14@gmail.com" className="center column contact-colour contact-card contact-link">
-              <img src={'/email-icon.png'} alt="Email Icon" className="contact-image"/>
+              <img src={'/icons/email-icon.png'} alt="Email Icon" className="contact-image"/>
               <div className="contact-text">carter.glynn14@gmail.com</div>
             </a>
             <a href="https://www.linkedin.com/in/carter-glynn/" className="center column contact-link contact-colour contact-card">
-              <img src={'/linkedin-icon-18-256.png'} alt="LinkedIn Logo" className="contact-image" />
+              <img src={'/icons/linkedin-icon-18-256.png'} alt="LinkedIn Logo" className="contact-image" />
               <div className="contact-text">LinkedIn</div>
             </a>
             <a href="https://www.github.com/carter-glynn/" className="center column contact-link contact-colour contact-card">
-              <img src={'/github-mark-white.png'} alt="GitHub Logo" className="contact-image" />              
+              <img src={'/icons/github-mark-white.png'} alt="GitHub Logo" className="contact-image" />              
               <div className="contact-text">GitHub</div>
             </a>
           </div>
