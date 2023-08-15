@@ -13,10 +13,12 @@ const About = () => {
           <div>
             <h1 className="title">About Me</h1>
             <div className="subtitle">Hi! My name is Carter Glynn. I am a recent graduate from the Computer Engineering Technology program at Conestoga College.</div>
-            <div className="subtitle">I plan to continue my education attending evening and weekend classes at McMaster University for their Bachelor of Technology (Software Engineering) degree program.</div>
-            <div className="subtitle">I am seeking an employer who I can help with my skills and experience and who, in turn, can help me grow in both my career, and as a person.</div>
+            <div className="subtitle">I'm excited to continue my education attending evening and weekend classes at McMaster University for their Bachelor of Technology (Software Engineering) degree program.</div>
+            <div className="subtitle">My professional experience includes leveraging both my software and hardware skills to create electronics products for commercial use, and teaching other post-secondary students in Computer Science, Electronics, and Mathematics.</div>
+            <div className="subtitle">I have a passion for learning and expanding my horizons, and I'd cherish the opportunity to be on the cutting-edge of technology.</div>
           </div>
           <div className="techs">
+            The following are a list of technologies I've worked with:
             <div className="center row">
               <div className="techs-card column">
                 <div className="card-title">General Languages</div>
