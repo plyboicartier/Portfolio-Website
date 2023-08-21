@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Footer from './Footer.js'
 import { Link } from "react-router-dom";
 
 const Home = () => {
-
+    useEffect(() => {
+        document.title = "Carter Glynn";
+    });
+    
   return (
     <div className="home">
         <div className="intro">

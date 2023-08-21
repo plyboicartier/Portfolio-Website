@@ -1,11 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import './Contact.css'
 import Navbar from './Navbar.js'
 import Footer from './Footer.js'
 import { Link } from "react-router-dom";
 
 const Contact = () => {
-
+  useEffect(() => {
+    document.title = "Contact - Carter Glynn";
+  });
+  
     return (
       <div>
         <Navbar />

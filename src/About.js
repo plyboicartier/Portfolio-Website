@@ -1,11 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import './About.css'
 import Navbar from './Navbar.js'
 import Footer from './Footer.js'
 import { Link } from "react-router-dom";
 
 const About = () => {
-    
+  useEffect(() => {
+    document.title = "About - Carter Glynn";
+  });
+
     return (
       <div>
         <Navbar />
