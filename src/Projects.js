@@ -53,7 +53,7 @@ const Projects = () => {
     repoDataURL();
     document.title = "Projects - Carter Glynn";
   }, []);
-  
+
   return (
     <div>
       <Navbar />
