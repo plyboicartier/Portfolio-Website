@@ -15,6 +15,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "sync":"aws s3 sync ./build 's3://cglynn-portfolio-website/'",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id ECLEC0R339H2 --paths '/*'",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
