@@ -51,12 +51,9 @@ const Projects = () => {
 
   useEffect(() => {
     repoDataURL();
-  }, []);
-
-  useEffect(() => {
     document.title = "Projects - Carter Glynn";
-  });
-
+  }, []);
+  
   return (
     <div>
       <Navbar />
