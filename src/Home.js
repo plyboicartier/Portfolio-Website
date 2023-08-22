@@ -1,14 +1,19 @@
-import { useState, useEffect } from "react";
 import Footer from './Footer.js'
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
-    useEffect(() => {
-        document.title = "Carter Glynn";
-    });
     
   return (
     <div className="home">
+        <Helmet>
+            <title>Carter Glynn</title>
+            <meta
+                name="description"
+                content="Carter Glynn's engineering portfolio showcases his expertise in software and hardware development. Explore his projects and accomplishments, and learn how to get in contact with him here!"
+            />
+            <meta name="keywords" content="software, development, computer, engineer, engineering, code, coding, hardware, carter glynn, portfolio, resume" />
+        </Helmet>
         <div className="intro">
             <div className="page-top">
                 <img src={'/icons/glynnlogo118px.png'} alt="Site Logo" className="logo" />

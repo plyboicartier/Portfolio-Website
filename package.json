@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -15,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "sync":"aws s3 sync ./build 's3://cglynn-portfolio-website/'",
+    "sync": "aws s3 sync ./build 's3://cglynn-portfolio-website/'",
     "invalidate": "aws cloudfront create-invalidation --distribution-id ECLEC0R339H2 --paths '/*'",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

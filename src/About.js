@@ -2,15 +2,20 @@ import { useState, useEffect } from "react";
 import './About.css'
 import Navbar from './Navbar.js'
 import Footer from './Footer.js'
-import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const About = () => {
-  useEffect(() => {
-    document.title = "About - Carter Glynn";
-  });
-
+  
     return (
       <div>
+        <Helmet>
+          <title>About - Carter Glynn</title>
+          <meta
+            name="description"
+            content="Carter Glynn's engineering portfolio showcases his expertise in software and hardware development. Learn more about his background and skills in various technologies here!"
+          />
+          <meta name="keywords" content="software, development, computer, engineer, engineering, hardware, carter glynn, portfolio, about me, about, technologies" />
+        </Helmet>
         <Navbar />
         <div className="center column top-wrap">
           <div>
