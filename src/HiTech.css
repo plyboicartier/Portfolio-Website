@@ -1,0 +1,293 @@
+.ht-demo, .ht-demo * {
+    background-color: #f1f1f1;
+    color: #0e0e0e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*-------------NAV-BAR----------------*/
+
+.nav-menu {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    padding: 2.5vh 2.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    border-bottom: 1px solid #0e0e0e;
+    background-color: rgba(241,241,241, 0.85);
+}
+
+.nav-menu * {
+    background-color: transparent;
+}
+
+.nav-menu img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 0 5px 2px 5px;
+    border-bottom: 2px solid #D68045;
+}
+
+.nav-menu a {
+    text-decoration: none;
+}
+
+/*----------LANDING-IMAGE-ETC------------*/
+
+.landing {
+    position: relative;
+}
+
+.landing img {
+    width: 100%;
+}
+
+.land-desc {
+    position: absolute;
+    top: 27%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.land-desc * {
+    background-color: transparent;
+    text-align: right;
+}
+
+.land-desc h1 {
+    font-size: 5vw;
+    width: fit-content;
+    margin-left: auto; 
+    margin-right: 0;
+  
+    background-image: linear-gradient(to right, #456AA3, #456AA3 40%, #767E80);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.land-desc p {
+    font-size: 1vw;
+    margin-top: 10px;
+    width: fit-content;
+    max-width: 60%;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+/*------------METRICS----------*/
+
+.metrics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.metrics h3 {
+    color: #D68045;
+    font-size: 4em;
+}
+
+
+/*------------REASONS-------------*/
+
+.choose-us {
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.choose-us * {
+    background-color: #e1e1e1;
+}
+
+.choose-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-us h2 {
+    width: fit-content;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    border-left: 3px solid #D68045;
+    border-right: 3px solid #D68045;
+}
+
+.choose-us p {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.reasons-top  {
+    margin-top: 25px;
+    justify-content: space-evenly;
+}
+
+.reasons-bot {
+    margin-top: 25px;
+    justify-content: space-evenly;
+}
+
+.reason {
+    text-align: center;
+    padding: 10px;
+}
+
+.reason img {
+    width: 135px;
+    background-color: #456AA3;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.reason-desc {
+    margin-top: 15px;
+}
+
+/*-----------GALLERY-------------*/
+
+.carousel {
+    padding: 25px;
+}
+
+.carousel-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel h2 {
+    width: fit-content;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    border-left: 3px solid #D68045;
+    border-right: 3px solid #D68045;
+}
+
+.carousel p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.carousel img {
+    max-height: 500px;
+    margin-top: 25px;
+}
+
+/*-----------REVIEWS-------------*/
+
+.reviews {
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.reviews * {
+    background-color: #e1e1e1;
+}
+
+.reviews-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews h2 {
+    width: fit-content;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    border-left: 3px solid #D68045;
+    border-right: 3px solid #D68045;
+}
+
+.review-group {
+    margin-top: 25px;
+    justify-content: space-evenly;
+    height: 90%;
+}
+
+.review {
+    background-color: #d1d1d1;
+    padding: 25px;
+    border-radius: 25px;
+    max-width: 25%;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review * {
+    background-color: #d1d1d1;
+}
+
+.reviewer {
+    margin-top: 15px;
+    border-left: 5px solid #456AA3;
+    padding: 5px 0px 5px 10px;
+}
+
+/*-----------QUESTIONS------------*/
+
+.questions {
+    justify-content: space-around;
+    padding: 50px;
+    background-image: url(/public/hitech/ht-backtruck\ \(1\).jpg);
+    background-position: 60% 37%;
+    background-size: cover;
+    color: #f1f1f1;
+}
+
+.questions * {
+    text-align: center;
+    background-color: transparent;
+    color: #f1f1f1;
+}
+
+.questions a {
+    background-color: #D68045;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+/*-----------FOOTER-------------*/
+
+.bottom-footer {
+    justify-content: space-evenly;
+    background-color: #34323D;
+    padding: 15px;
+    border-top: 3px solid #D68045;
+}
+
+.bottom-footer * {
+    background-color: #34323D;
+    color: #f1f1f1;
+}
+
+.bottom-footer img {
+    width: 30px;  
+    margin-left: 15px;  
+}
